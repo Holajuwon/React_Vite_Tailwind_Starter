@@ -28,7 +28,7 @@ const ModeButton = () => {
   }, []);
 
   return (
-    <div onClick={toggleMode}>
+    <div onClick={toggleMode} className="cursor-pointer " >
       {mode === "light" ? <img src={Dark} /> : <img src={Lite} />}
     </div>
   );

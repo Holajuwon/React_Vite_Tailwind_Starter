@@ -8,12 +8,12 @@ function App() {
 
   return (
     <Layout>
-      <div className="App dark:bg-brand bg-gray-300">
+      <div className="App dark:bg-brand bg-white">
         <header className="App-header dark:text-gray-50">
           <div className="animate-spin-slow">
             <img src={logo} className="App-logo animate-spin" alt="logo" />
           </div>
-          <p>Hello Vite + React!</p>
+          <p>Hello Vite + React + Tailwind!</p>
           <p>
             <button
               onClick={() => setCount((count) => count + 1)}
